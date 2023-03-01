@@ -28,6 +28,9 @@
             <plugin>
                 <version>2.22.2</version>
                 <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <failIfNoTests>true</failIfNoTests>
+                </configuration>
             </plugin>
         </plugins>
     </build>
